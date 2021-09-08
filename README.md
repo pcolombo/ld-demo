@@ -10,7 +10,7 @@ By putting the new purchase option behind a feature flag we can:
 
 ## Installation
 1. Run `npm install`
-2. Open the `.env` file in the project root and set `LAUNCH_DARKLY_SDK_KEY = ` to your SDK key
+2. Create a `.env` file in the project root and set `LAUNCH_DARKLY_SDK_KEY = ` to your SDK key
 1. To launch the demo site run `npm start` and point your browser to [`http://localhost:3000`](https://localhost:3000))
 
 ## Feature Flag Setup
@@ -26,7 +26,7 @@ Create a simple boolean feature flag. When this flag is enabled the PayPal check
 
 1. Ensure the flag is set to off
 2. Launch the site and observe that the option to checkout with a credit/debit card is shown
-2. Toggle the feature flag on and reload the site. The checkout option should chane to a PayPal widget experience.
+2. Toggle the feature flag on and reload the site. The checkout option should change to a PayPal widget experience
 
 Launch Darkly delivers changes to flag states near instantaneously. By changing the flag and refreshing the page we can enable the new experience at will.
 
