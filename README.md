@@ -10,7 +10,7 @@ By putting the new purchase option behind a feature flag we can:
 
 ## Installation
 1. Run `npm install`
-2. Open the `.env` file in the project root and set `LAUNCH_DARKLY_SDK_KEY = ` to your SDK key
+2. Create a `.env` file in the project root and set `LAUNCH_DARKLY_SDK_KEY = ` to your SDK key
 1. To launch the demo site run `npm start` and point your browser to [`http://localhost:3000`](https://localhost:3000))
 
 ## Feature Flag Setup
