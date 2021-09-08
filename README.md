@@ -26,7 +26,7 @@ Create a simple boolean feature flag. When this flag is enabled the PayPal check
 
 1. Ensure the flag is set to off
 2. Launch the site and observe that the option to checkout with a credit/debit card is shown
-2. Toggle the feature flag on and reload the site. The checkout option should chane to a PayPal widget experience.
+2. Toggle the feature flag on and reload the site. The checkout option should change to a PayPal widget experience
 
 Launch Darkly delivers changes to flag states near instantaneously. By changing the flag and refreshing the page we can enable the new experience at will.
 
